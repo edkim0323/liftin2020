@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+img {max-width:100%;height:auto;}
+body {margin:0;}
+figure {margin:0;}
+#wrapper 
+
+{max-width:1440px;
+	margin-left:auto;margin-right:auto;}
+.img1 {background-image: url("../images/header.gif");
+background-repeat: no-repeat;
+background-position-x: right;}
+
+
+header{height:140px;}header{height:120px;}
+/*nav styles*/
+#logo{width:163px;float:left;margin-right:260px;margin-top:30px;margin-left:80px;}
+
+.des1 {height:400px;width:594px;margin-top:200px;margin-left:80px;}
+
+.center {width:100px;float:left;font-size:26px;font-weight:bold;font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";padding-top:28px;}
+.center li a:hover{text-decoration:none;}
+.center li a{font-size:22px;font-weight:bold;font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";}
+.center li a:link{color:black; text-decoration:none;}
+.right {width:460px;float:right;margin-right:40px;}
+ul {list-style-type:none;/*no bullets*/padding-left:0;padding-top:40px;}
+li {display:inline-block; margin-right:20px;}
+li:last-child {margin-right:0;}/*over-write last margin*/
+.right li a{font-size:22px;font-weight:bold;font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";}
+.right li a:link{color:black; text-decoration:none;}
+.right li a:hover {border-bottom:medium solid black}
+.right li a:visited {color:black;text-decoration:none;}
+
+
+#title {font-size:30px;font-weight:normal; font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif"; margin-left:573px; margin-top:40px; margin-bottom:40px;}
+.home {margin-bottom:400px;}
+.image-items {margin-left:0px; margin-bottom:20px;overflow:hidden;}
+
+
+.image {width:820px; height:503px; margin-right:55px;float:left; background:pink;margin-bottom:300px;margin-top:120px;}
+.image:last-child {margin-right:0px;}
+
+.article2 {width:500px; height:400px; float:left; margin-bottom:200px; margin-top:240px}
+h1 {font-size:60px;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";margin-top:0px;margin-bottom:0px;}
+p {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size:18px;margin-top:10px;}
+
+#sub_title {font-size:30px;font-weight:normal; font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif"; margin-left:610px; margin-top:40px; margin-bottom:40px;clear:both;} 
+
+#images_home {width:613px; height:840px; margin-right:55px; float:left; background:pink;margin-bottom:220px;}
+.article3 {width:600px; height:200px;float:left;margin-bottom:60px;margin-top:140px;margin-left:20px;}
+
+#images_home {float:left;width:600px;}
+#images_home2 {float:left;width:700px;overflow:hidden;}
+.wimage {width:180px;float:left;margin-right:32px;margin-top:80px;}
+.wimage2 {width:275px;float:left;margin-right:32px;}
+.wimage3 {width:180px;float:left;margin-top:80px;}
+.bt{width:110px;padding:10px;text-align:center;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";border:thin solid 	
+black;margin-top:0px;float:right;margin-right:20px;font-weight:bold;}
+
+
+footer {height:200px;clear:both;}
+
+footer ul{margin-left:40px;padding-top:0px;}
+footer li a{font-size:24px;font-weight:bold; font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+footer li a:link{color:black; text-decoration:none;}
+footer li a:hover {color:gray;}
+footer li a:visited {color:black;text-decoration:none;}
+
+#contact{width:1440px; height:120px;padding-top:20px;border-top:thin outset;}
+#copyright {height:20px;float:right;color:gray; font-size:12px;font-weight:normal; font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";padding-left:40px;padding:10px;}
+/*men page*/
+
+#title_men {font-size:60px;font-weight:bold; font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif"; margin-left:60px; margin-top:310px; margin-bottom:40px;height:40px;float:left;-webkit-text-stroke:1px white;}
+.left{float:left;width:260px;margin-left:80px;padding-top:0px;}
+.right_c{float:right;width:80px;padding-top:0px;}
+#bar{background-color:black;width:8px;height:280px;margin-top:200px;margin-left:80px;float:left;clear:both;}
+
+.row {margin:0 auto; width:100%; margin-bottom:200px;margin-top:1200px;}
+.images {width:100%; margin-right:0px; float:left; margin-bottom:100px;}
+.images:last-child {margin-right:0px;}
+
+.content li a:link{color:black;text-decoration:none;}
+.content li a:hover {color:gray;}
+.content li a:visited {color:black;text-decoration:none;}
+.content li a {font-family: Gotham, Helvetica Neue, Helvetica, "Arial", "sans-serif";}
+
+.img2 {background-image: url("../images/men.gif");
+
+background-repeat: no-repeat;
+background-position-x: 100% ;}
+figcaption{text-align:center;padding:5px;}
+h3{font-size:20px;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+h4{font-weight:lighter;font-size:16px;color:gray;margin-top:0px;}
+h5{margin-top:0px;font-weight:lighter;font-size:16px;color:gray;}
+
+
+/*women page*/
+#title_women {font-size:60px;font-weight:bold; font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif"; margin-left:60px; margin-top:310px; margin-bottom:20px;height:40px;float:left;}
+.row_2 {margin:0 auto; width:100%; margin-bottom:200px;margin-top:1200px;}
+.images_women {width:100%; height:550px; margin-right:55px; float:left;margin-bottom:200px;}
+.images_women:last-child {margin-right:0px;}
+.img3 {background-image: url("../images/women.gif");
+background-repeat: no-repeat;
+background-position-x: 100%;}
+
+
+/*acessories page*/
+ #title_accessories {font-size:60px;font-weight:bold; font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif"; margin-left:60px; margin-top:310px; margin-bottom:40px;height:40px;float:left;}
+.row3 {margin:0 auto; width:1280px; margin-bottom:200px;margin-top:200px;}
+.images_ac {width:390px;margin-right:55px; float:left;margin-bottom:120px;}
+.images_ac:last-child {margin-right:0px;}
+#img_ac {width:730px; height: 560px;margin-left:800px;margin-top:80px;margin-bottom:400px;}
+.img4 {background-image: url("../images/NEW_ERA_9FORTHY_ADJUSTABLE_-_OLIVE_KHAKI_A-Edit_ZH.gif") ;
+background-repeat: no-repeat;
+background-position-x:right;}
+
+/*men_item1*/
+
+.row_4 {width:1280px; margin-bottom:400px;margin-top:40px;margin-left:80px;}
+.images_sc {width:390px;  margin-right:55px; float:left; margin-bottom:200px;}
+.images_sc:last-child {margin-right:0px;}
+.mitem_1 {width:713px;margin-top:80px; float:left;margin-right:55px;}
+.button {width:400px;height:300px;margin-left:55px;margin-top:80px; background-color:pink;float:left;}
+.shop{margin-left:86px; margin-bottom:100px;overflow:hidden;}
+.article4 {width:545px; height:100px; float:left;margin-bottom:67px; margin-top:140px;}
+h2 {font-size:58px;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";margin-top:0px;margin-bottom:0px;}
+#price {width:545px;height:80px;float:left;font-size:30px;font-family:Gotham, Helvetica Neue, Helvetica, "Arial", "sans-serif"; font-weight: medium;}
+#size {width:545px;float:left;font-size:10px;margin-right:pink;font-family:Gotham, Helvetica Neue, Helvetica, "Arial", "sans-serif"; font-weight: medium;margin-top:40px;color:gray;}
+.size_box {width:50px; padding:14px;float:left;margin-right:20px;margin-top:20px;border: thin solid black;text-align:center;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+.qt{width:147px;padding:20px;text-align:center;float:left;margin-top:20px;margin-right:16px;border: thin solid black;font-family:Gotham, Helvetica Neue, Helvetica, "Arial", "sans-serif"}
+.add{width:240px;padding:22px;background-color:black;float:left;margin-top:20px;margin-bottom:20px;text-align:center;color:white;font-family: Gotham, Helvetica Neue, Helvetica, "Arial", "sans-serif";}
+.shopd{width:450px;padding:20px;text-align:center;float:left;margin-top:20px;border: thin solid black;font-family: Gotham, Helvetica Neue, Helvetica, "Arial", "sans-serif";}
+#like{margin-left:80px;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-weight:bold;font-size:20px;}
+
+
+/*contact*/
+form {width:220px;height:400px;margin:0 auto;padding:60px;border:medium solid;margin-top:200px;}
+
+input{margin-bottom:16px;padding:4px;clear:both;width:200px;float:left;margin-left:5px;}
+
+label{ width:100px;float:left;clear:both;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-weight:medium; font-size:14px;margin-left:5px;margin-bottom:2px;}
+
+.submit-buttom {width:110px;padding:5px;background-color:black; color:white;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size:12px;clear:both;margin-top:16px;float:right;margin-right:5px;}
+
+textarea{margin-left:5px;}
+
+news{width:200px;}
+
+/*table*/
+table {width:600px;border:medium solid;margin-top:100px;}
+
+.size{text-align:center;}
+.title{font-weight:bold;font-size:18px;}
+.size1 {text-align:center;font-weight:bold;}
+
+@media only screen and (min-width: 768px)
+{.row_2 {margin:0 auto; width:1280px; margin-bottom:200px;margin-top:1200px;}
+.images_women {width:390px; height:550px; margin-right:55px; float:left;margin-bottom:200px;}
+.images_women:last-child {margin-right:0px;}.row {margin:0 auto; width:1280px; margin-bottom:200px;margin-top:1200px;}
+.images {width:390px; margin-right:55px;margin-bottom:100px;background-repeat: no-repeat;
+background-position-x: 600px;
+
+	
+	
+	
+	
+}
+
+ {
+}
